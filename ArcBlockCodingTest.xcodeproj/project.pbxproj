@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30A1FD62271FBC7E0077FE38 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 30A1FD61271FBC7E0077FE38 /* data.json */; };
 		30CA6FE5271FB46600168698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA6FE4271FB46600168698 /* AppDelegate.swift */; };
 		30CA6FE7271FB46600168698 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA6FE6271FB46600168698 /* SceneDelegate.swift */; };
 		30CA6FE9271FB46600168698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA6FE8271FB46600168698 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30A1FD61271FBC7E0077FE38 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		30CA6FE1271FB46600168698 /* ArcBlockCodingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcBlockCodingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CA6FE4271FB46600168698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30CA6FE6271FB46600168698 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,9 +83,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30A1FD60271FBC7E0077FE38 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				30A1FD61271FBC7E0077FE38 /* data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		30CA6FD8271FB46600168698 = {
 			isa = PBXGroup;
 			children = (
+				30A1FD60271FBC7E0077FE38 /* Data */,
 				30CA6FE3271FB46600168698 /* ArcBlockCodingTest */,
 				30CA6FFA271FB46600168698 /* ArcBlockCodingTestTests */,
 				30CA7004271FB46700168698 /* ArcBlockCodingTestUITests */,
@@ -260,6 +271,7 @@
 				30CA6FF1271FB46600168698 /* LaunchScreen.storyboard in Resources */,
 				30CA6FEE271FB46600168698 /* Assets.xcassets in Resources */,
 				30CA6FEC271FB46600168698 /* Main.storyboard in Resources */,
+				30A1FD62271FBC7E0077FE38 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
