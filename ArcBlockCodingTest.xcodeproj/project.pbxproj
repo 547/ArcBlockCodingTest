@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		30A1FD62271FBC7E0077FE38 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 30A1FD61271FBC7E0077FE38 /* data.json */; };
+		30A1FD68271FC4500077FE38 /* HomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A1FD67271FC4500077FE38 /* HomeData.swift */; };
+		30A1FD6A271FC5580077FE38 /* HomeDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A1FD69271FC5580077FE38 /* HomeDataType.swift */; };
 		30CA6FE5271FB46600168698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA6FE4271FB46600168698 /* AppDelegate.swift */; };
 		30CA6FE7271FB46600168698 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA6FE6271FB46600168698 /* SceneDelegate.swift */; };
 		30CA6FE9271FB46600168698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA6FE8271FB46600168698 /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		30A1FD61271FBC7E0077FE38 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		30A1FD67271FC4500077FE38 /* HomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeData.swift; sourceTree = "<group>"; };
+		30A1FD69271FC5580077FE38 /* HomeDataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataType.swift; sourceTree = "<group>"; };
 		30CA6FE1271FB46600168698 /* ArcBlockCodingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcBlockCodingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CA6FE4271FB46600168698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30CA6FE6271FB46600168698 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +95,15 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		30A1FD64271FC3260077FE38 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30A1FD67271FC4500077FE38 /* HomeData.swift */,
+				30A1FD69271FC5580077FE38 /* HomeDataType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		30CA6FD8271FB46600168698 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +130,7 @@
 		30CA6FE3271FB46600168698 /* ArcBlockCodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				30A1FD64271FC3260077FE38 /* Models */,
 				30CA6FE4271FB46600168698 /* AppDelegate.swift */,
 				30CA6FE6271FB46600168698 /* SceneDelegate.swift */,
 				30CA6FE8271FB46600168698 /* ViewController.swift */,
@@ -338,6 +352,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A1FD68271FC4500077FE38 /* HomeData.swift in Sources */,
+				30A1FD6A271FC5580077FE38 /* HomeDataType.swift in Sources */,
 				30CA6FE9271FB46600168698 /* ViewController.swift in Sources */,
 				30CA6FE5271FB46600168698 /* AppDelegate.swift in Sources */,
 				30CA6FE7271FB46600168698 /* SceneDelegate.swift in Sources */,
