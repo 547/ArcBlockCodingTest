@@ -10,4 +10,5 @@ target 'ArcBlockCodingTest' do
    pod 'SW_MJRefresh'
    pod 'SWLog'
    pod 'Kingfisher'
+   pod 'HandyJSON'
 end
