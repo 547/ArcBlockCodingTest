@@ -104,6 +104,37 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		30A1FD6B271FCBF40077FE38 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				30A1FD6C271FCBF40077FE38 /* ViewModels */,
+				30A1FD6D271FCBF40077FE38 /* ViewControllers */,
+				30A1FD6E271FCBF40077FE38 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		30A1FD6C271FCBF40077FE38 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		30A1FD6D271FCBF40077FE38 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		30A1FD6E271FCBF40077FE38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		30CA6FD8271FB46600168698 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +161,7 @@
 		30CA6FE3271FB46600168698 /* ArcBlockCodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				30A1FD6B271FCBF40077FE38 /* Home */,
 				30A1FD64271FC3260077FE38 /* Models */,
 				30CA6FE4271FB46600168698 /* AppDelegate.swift */,
 				30CA6FE6271FB46600168698 /* SceneDelegate.swift */,
