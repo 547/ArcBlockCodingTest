@@ -1,0 +1,6 @@
+framework module Pods_ArcBlockCodingTest {
+  umbrella header "Pods-ArcBlockCodingTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-ArcBlockCodingTest/Pods-ArcBlockCodingTest-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/SWCommonExtensions/SWCommonExtensions.framework
+${BUILT_PRODUCTS_DIR}/SWLog/SWLog.framework
+${BUILT_PRODUCTS_DIR}/SW_MJRefresh/SW_MJRefresh.framework

@@ -1,0 +1,6 @@
+framework module SW_MJRefresh {
+  umbrella header "SW_MJRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}

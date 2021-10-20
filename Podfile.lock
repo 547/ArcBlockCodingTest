@@ -1,0 +1,32 @@
+PODS:
+  - Kingfisher (7.0.0)
+  - MJRefresh (3.7.2)
+  - SW_MJRefresh (0.0.8):
+    - MJRefresh
+  - SWCommonExtensions (0.1.4)
+  - SWLog (0.1.0)
+
+DEPENDENCIES:
+  - Kingfisher
+  - SW_MJRefresh
+  - SWCommonExtensions
+  - SWLog
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - Kingfisher
+    - MJRefresh
+    - SW_MJRefresh
+    - SWCommonExtensions
+    - SWLog
+
+SPEC CHECKSUMS:
+  Kingfisher: 5efc54fec3980f92354898532e562cc17f31efb4
+  MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
+  SW_MJRefresh: 27c2ba082c224bc0111d4d4aa37041b1de6e9657
+  SWCommonExtensions: 4ab227e2c34ad097b376161deef7e55bfc318bfe
+  SWLog: b8f76f646bff0856975ae1ec79c7780f58fe35e8
+
+PODFILE CHECKSUM: 3d38b70461052f051733f5a637a2cd54df389cc6
+
+COCOAPODS: 1.11.0.beta.2

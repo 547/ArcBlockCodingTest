@@ -1,0 +1,6 @@
+framework module SWLog {
+  umbrella header "SWLog-umbrella.h"
+
+  export *
+  module * { export * }
+}
