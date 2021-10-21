@@ -41,6 +41,14 @@ class CommonWebViewController: UIViewController {
     func tapRefreshButtonItem(_ sender: UIBarButtonItem) {
         reload()
     }
+    @objc
+    func tapPreviousButtonItem(_ sender: UIBarButtonItem) {
+        if webView.canGoBack {
+            webView.goBack()
+        }else {
+            navigationController?.popViewController(animated: true)
+        }
+    }
 }
 private extension CommonWebViewController {
     func addWebObservers() -> () {
@@ -60,9 +68,10 @@ private extension CommonWebViewController {
     }
     func setupNavigation() -> () {
         title = viewModel.navigationTitle ?? ""
-        let rightItem = UIBarButtonItem(image: .init(systemName: "arrow.clockwise"), style: .plain, target: self, action: #selector(tapRefreshButtonItem(_:)))
-        refreshButtonItem = rightItem
-        navigationItem.rightBarButtonItem = rightItem
+        let previousButtonItem = UIBarButtonItem(image: .init(systemName: "arrowshape.turn.up.left"), style: .plain, target: self, action: #selector(tapPreviousButtonItem(_:)))
+        let refreshButtonItem = UIBarButtonItem(image: .init(systemName: "arrow.clockwise"), style: .plain, target: self, action: #selector(tapRefreshButtonItem(_:)))
+        self.refreshButtonItem = refreshButtonItem
+        navigationItem.rightBarButtonItems = [refreshButtonItem, previousButtonItem]
     }
     func setupWebView() -> () {
         let userContent = WKUserContentController()
