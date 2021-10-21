@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		302ACDC627210F7A00C7480C /* ImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302ACDB427210F7A00C7480C /* ImageViewExtensions.swift */; };
+		302ACDC727210F7A00C7480C /* MJRefreshExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302ACDB527210F7A00C7480C /* MJRefreshExtensions.swift */; };
+		302ACDC827210F7A00C7480C /* HomeDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302ACDB727210F7A00C7480C /* HomeDataType.swift */; };
+		302ACDC927210F7A00C7480C /* HomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302ACDB827210F7A00C7480C /* HomeData.swift */; };
+		302ACDCA27210F7A00C7480C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302ACDBC27210F7A00C7480C /* HomeViewModel.swift */; };
+		302ACDCB27210F7A00C7480C /* ArcBlockABTNodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302ACDBD27210F7A00C7480C /* ArcBlockABTNodeViewModel.swift */; };
+		302ACDCC27210F7A00C7480C /* ArcBlockDevCon2020ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302ACDBE27210F7A00C7480C /* ArcBlockDevCon2020ViewModel.swift */; };
+		302ACDCD27210F7A00C7480C /* ArcBlockDevCon2020TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302ACDC027210F7A00C7480C /* ArcBlockDevCon2020TableViewController.swift */; };
+		302ACDCE27210F7A00C7480C /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302ACDC127210F7A00C7480C /* HomeTableViewController.swift */; };
+		302ACDCF27210F7A00C7480C /* ArcBlockABTNodeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302ACDC227210F7A00C7480C /* ArcBlockABTNodeTableViewController.swift */; };
+		302ACDD027210F7A00C7480C /* LargeImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302ACDC427210F7A00C7480C /* LargeImageTableViewCell.swift */; };
+		302ACDD427210FD200C7480C /* CommonWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302ACDD327210FD200C7480C /* CommonWebViewController.swift */; };
+		302ACDD627210FED00C7480C /* CommonWebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302ACDD527210FED00C7480C /* CommonWebViewModel.swift */; };
+		302ACDDB272195DB00C7480C /* CacheClearHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302ACDDA272195DB00C7480C /* CacheClearHelper.swift */; };
 		30A1FD62271FBC7E0077FE38 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 30A1FD61271FBC7E0077FE38 /* data.json */; };
-		30A1FD68271FC4500077FE38 /* HomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A1FD67271FC4500077FE38 /* HomeData.swift */; };
-		30A1FD6A271FC5580077FE38 /* HomeDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A1FD69271FC5580077FE38 /* HomeDataType.swift */; };
-		30A1FD70271FCC360077FE38 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A1FD6F271FCC360077FE38 /* HomeViewModel.swift */; };
 		30CA6FE5271FB46600168698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA6FE4271FB46600168698 /* AppDelegate.swift */; };
-		30CA6FE7271FB46600168698 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA6FE6271FB46600168698 /* SceneDelegate.swift */; };
 		30CA6FE9271FB46600168698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA6FE8271FB46600168698 /* ViewController.swift */; };
 		30CA6FEC271FB46600168698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CA6FEA271FB46600168698 /* Main.storyboard */; };
 		30CA6FEE271FB46600168698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CA6FED271FB46600168698 /* Assets.xcassets */; };
@@ -20,6 +30,7 @@
 		30CA6FFC271FB46600168698 /* ArcBlockCodingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA6FFB271FB46600168698 /* ArcBlockCodingTestTests.swift */; };
 		30CA7006271FB46700168698 /* ArcBlockCodingTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA7005271FB46700168698 /* ArcBlockCodingTestUITests.swift */; };
 		30CA7008271FB46700168698 /* ArcBlockCodingTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA7007271FB46700168698 /* ArcBlockCodingTestUITestsLaunchTests.swift */; };
+		30FBB7072720266C00A4854B /* ViewControllerCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FBB7062720266C00A4854B /* ViewControllerCenter.swift */; };
 		C2B1598DCEAC1C298ED89295 /* Pods_ArcBlockCodingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6E2480F8D5EE4E98B33E35 /* Pods_ArcBlockCodingTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,13 +52,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		302ACDB427210F7A00C7480C /* ImageViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewExtensions.swift; sourceTree = "<group>"; };
+		302ACDB527210F7A00C7480C /* MJRefreshExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJRefreshExtensions.swift; sourceTree = "<group>"; };
+		302ACDB727210F7A00C7480C /* HomeDataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDataType.swift; sourceTree = "<group>"; };
+		302ACDB827210F7A00C7480C /* HomeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeData.swift; sourceTree = "<group>"; };
+		302ACDBC27210F7A00C7480C /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		302ACDBD27210F7A00C7480C /* ArcBlockABTNodeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcBlockABTNodeViewModel.swift; sourceTree = "<group>"; };
+		302ACDBE27210F7A00C7480C /* ArcBlockDevCon2020ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcBlockDevCon2020ViewModel.swift; sourceTree = "<group>"; };
+		302ACDC027210F7A00C7480C /* ArcBlockDevCon2020TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcBlockDevCon2020TableViewController.swift; sourceTree = "<group>"; };
+		302ACDC127210F7A00C7480C /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		302ACDC227210F7A00C7480C /* ArcBlockABTNodeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcBlockABTNodeTableViewController.swift; sourceTree = "<group>"; };
+		302ACDC427210F7A00C7480C /* LargeImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeImageTableViewCell.swift; sourceTree = "<group>"; };
+		302ACDD327210FD200C7480C /* CommonWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonWebViewController.swift; sourceTree = "<group>"; };
+		302ACDD527210FED00C7480C /* CommonWebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonWebViewModel.swift; sourceTree = "<group>"; };
+		302ACDDA272195DB00C7480C /* CacheClearHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheClearHelper.swift; sourceTree = "<group>"; };
 		30A1FD61271FBC7E0077FE38 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		30A1FD67271FC4500077FE38 /* HomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeData.swift; sourceTree = "<group>"; };
-		30A1FD69271FC5580077FE38 /* HomeDataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataType.swift; sourceTree = "<group>"; };
-		30A1FD6F271FCC360077FE38 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		30CA6FE1271FB46600168698 /* ArcBlockCodingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcBlockCodingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CA6FE4271FB46600168698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30CA6FE6271FB46600168698 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		30CA6FE8271FB46600168698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30CA6FEB271FB46600168698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30CA6FED271FB46600168698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +79,7 @@
 		30CA7001271FB46700168698 /* ArcBlockCodingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcBlockCodingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CA7005271FB46700168698 /* ArcBlockCodingTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcBlockCodingTestUITests.swift; sourceTree = "<group>"; };
 		30CA7007271FB46700168698 /* ArcBlockCodingTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcBlockCodingTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		30FBB7062720266C00A4854B /* ViewControllerCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCenter.swift; sourceTree = "<group>"; };
 		8AA539C31407AA7ABD25F723 /* Pods-ArcBlockCodingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBlockCodingTest.release.xcconfig"; path = "Target Support Files/Pods-ArcBlockCodingTest/Pods-ArcBlockCodingTest.release.xcconfig"; sourceTree = "<group>"; };
 		CC6E2480F8D5EE4E98B33E35 /* Pods_ArcBlockCodingTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcBlockCodingTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD039542AE84040F71A30E21 /* Pods-ArcBlockCodingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBlockCodingTest.debug.xcconfig"; path = "Target Support Files/Pods-ArcBlockCodingTest/Pods-ArcBlockCodingTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,53 +111,113 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		302ACDB227210F7A00C7480C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				302ACDB327210F7A00C7480C /* Tools */,
+				302ACDB627210F7A00C7480C /* Models */,
+				302ACDB927210F7A00C7480C /* ViewsAndViewModels */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		302ACDB327210F7A00C7480C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				302ACDB427210F7A00C7480C /* ImageViewExtensions.swift */,
+				302ACDB527210F7A00C7480C /* MJRefreshExtensions.swift */,
+				302ACDDA272195DB00C7480C /* CacheClearHelper.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		302ACDB627210F7A00C7480C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				302ACDB727210F7A00C7480C /* HomeDataType.swift */,
+				302ACDB827210F7A00C7480C /* HomeData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		302ACDB927210F7A00C7480C /* ViewsAndViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				302ACDBA27210F7A00C7480C /* Home */,
+				302ACDC527210F7A00C7480C /* Common */,
+			);
+			path = ViewsAndViewModels;
+			sourceTree = "<group>";
+		};
+		302ACDBA27210F7A00C7480C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				302ACDBB27210F7A00C7480C /* ViewModels */,
+				302ACDBF27210F7A00C7480C /* ViewControllers */,
+				302ACDC327210F7A00C7480C /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		302ACDBB27210F7A00C7480C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				302ACDBC27210F7A00C7480C /* HomeViewModel.swift */,
+				302ACDBD27210F7A00C7480C /* ArcBlockABTNodeViewModel.swift */,
+				302ACDBE27210F7A00C7480C /* ArcBlockDevCon2020ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		302ACDBF27210F7A00C7480C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				302ACDC027210F7A00C7480C /* ArcBlockDevCon2020TableViewController.swift */,
+				302ACDC127210F7A00C7480C /* HomeTableViewController.swift */,
+				302ACDC227210F7A00C7480C /* ArcBlockABTNodeTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		302ACDC327210F7A00C7480C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				302ACDC427210F7A00C7480C /* LargeImageTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		302ACDC527210F7A00C7480C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				302ACDD227210FB600C7480C /* ViewControllers */,
+				302ACDD127210FB600C7480C /* ViewModels */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		302ACDD127210FB600C7480C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				302ACDD527210FED00C7480C /* CommonWebViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		302ACDD227210FB600C7480C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				302ACDD327210FD200C7480C /* CommonWebViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		30A1FD60271FBC7E0077FE38 /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				30A1FD61271FBC7E0077FE38 /* data.json */,
 			);
 			path = Data;
-			sourceTree = "<group>";
-		};
-		30A1FD64271FC3260077FE38 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				30A1FD67271FC4500077FE38 /* HomeData.swift */,
-				30A1FD69271FC5580077FE38 /* HomeDataType.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		30A1FD6B271FCBF40077FE38 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				30A1FD6C271FCBF40077FE38 /* ViewModels */,
-				30A1FD6D271FCBF40077FE38 /* ViewControllers */,
-				30A1FD6E271FCBF40077FE38 /* Views */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		30A1FD6C271FCBF40077FE38 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				30A1FD6F271FCC360077FE38 /* HomeViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		30A1FD6D271FCBF40077FE38 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		30A1FD6E271FCBF40077FE38 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		30CA6FD8271FB46600168698 = {
@@ -164,10 +246,9 @@
 		30CA6FE3271FB46600168698 /* ArcBlockCodingTest */ = {
 			isa = PBXGroup;
 			children = (
-				30A1FD6B271FCBF40077FE38 /* Home */,
-				30A1FD64271FC3260077FE38 /* Models */,
+				302ACDB227210F7A00C7480C /* Application */,
+				30FBB7062720266C00A4854B /* ViewControllerCenter.swift */,
 				30CA6FE4271FB46600168698 /* AppDelegate.swift */,
-				30CA6FE6271FB46600168698 /* SceneDelegate.swift */,
 				30CA6FE8271FB46600168698 /* ViewController.swift */,
 				30CA6FEA271FB46600168698 /* Main.storyboard */,
 				30CA6FED271FB46600168698 /* Assets.xcassets */,
@@ -387,12 +468,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A1FD68271FC4500077FE38 /* HomeData.swift in Sources */,
-				30A1FD70271FCC360077FE38 /* HomeViewModel.swift in Sources */,
-				30A1FD6A271FC5580077FE38 /* HomeDataType.swift in Sources */,
+				302ACDCE27210F7A00C7480C /* HomeTableViewController.swift in Sources */,
 				30CA6FE9271FB46600168698 /* ViewController.swift in Sources */,
 				30CA6FE5271FB46600168698 /* AppDelegate.swift in Sources */,
-				30CA6FE7271FB46600168698 /* SceneDelegate.swift in Sources */,
+				302ACDCC27210F7A00C7480C /* ArcBlockDevCon2020ViewModel.swift in Sources */,
+				302ACDC627210F7A00C7480C /* ImageViewExtensions.swift in Sources */,
+				302ACDDB272195DB00C7480C /* CacheClearHelper.swift in Sources */,
+				302ACDCB27210F7A00C7480C /* ArcBlockABTNodeViewModel.swift in Sources */,
+				302ACDD627210FED00C7480C /* CommonWebViewModel.swift in Sources */,
+				302ACDCA27210F7A00C7480C /* HomeViewModel.swift in Sources */,
+				302ACDC727210F7A00C7480C /* MJRefreshExtensions.swift in Sources */,
+				302ACDD427210FD200C7480C /* CommonWebViewController.swift in Sources */,
+				302ACDC927210F7A00C7480C /* HomeData.swift in Sources */,
+				302ACDD027210F7A00C7480C /* LargeImageTableViewCell.swift in Sources */,
+				302ACDC827210F7A00C7480C /* HomeDataType.swift in Sources */,
+				30FBB7072720266C00A4854B /* ViewControllerCenter.swift in Sources */,
+				302ACDCF27210F7A00C7480C /* ArcBlockABTNodeTableViewController.swift in Sources */,
+				302ACDCD27210F7A00C7480C /* ArcBlockDevCon2020TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,7 +591,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -554,7 +646,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -581,6 +673,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -611,6 +704,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -633,7 +727,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5KB664LMTS;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -658,7 +752,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5KB664LMTS;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

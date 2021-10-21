@@ -35,7 +35,7 @@
     {
       "id": 5,
       "type": "text-link",
-      "content:": "这是 ABT 钱包的官网页面, 欢迎体验（需要考虑链接可访问）",
+      "content": "这是 ABT 钱包的官网页面, 欢迎体验（需要考虑链接可访问）",
       "link": "https://abtwallet.io/zh/"
     }
   ]
