@@ -282,7 +282,7 @@
 		109E5569058BA227C984DC55ED8F8D10 /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
 		10AC74672574886660FE79E5B2A4E8B7 /* WKInterfaceImage+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WKInterfaceImage+Kingfisher.swift"; path = "Sources/Extensions/WKInterfaceImage+Kingfisher.swift"; sourceTree = "<group>"; };
 		10D0C6BDDF1F2C2A797F9C5877C55E90 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/Extensions/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
-		14A80E654F11E136D1BE504FC5FB8BF6 /* SW_MJRefresh */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SW_MJRefresh; path = SW_MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A80E654F11E136D1BE504FC5FB8BF6 /* SW_MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SW_MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E8B531DEF733F23BE6B9DAC0068274 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		1731C009512FA539914FDEBB4DCFA8E1 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/Extensions/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
 		1B24A2EE129E87D05C6997B597874A35 /* MJRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.release.xcconfig; sourceTree = "<group>"; };
@@ -402,7 +402,7 @@
 		9C4703075BCE49D7EBB500256BD2BD03 /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = Sources/General/ImageSource/Source.swift; sourceTree = "<group>"; };
 		9C4B5E93BF3B56201AC828748DCC07DD /* DiskStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskStorage.swift; path = Sources/Cache/DiskStorage.swift; sourceTree = "<group>"; };
 		9CE13894222630ECAFFB4F9B02881059 /* SW_MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SW_MJRefresh.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EAE2D32D189DA4D744192C7A04BE6AF /* HandyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HandyJSON.release.xcconfig; sourceTree = "<group>"; };
 		9EEA59DB6242AE23AE5036BA703D88A1 /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
 		9F01CB2AE236EBE145C2B28F70CCC825 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
@@ -450,7 +450,7 @@
 		C95FB7965F7325A1F3E41EABB6087EEB /* Pods-ArcBlockCodingTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArcBlockCodingTest-Info.plist"; sourceTree = "<group>"; };
 		C9E278053020EF3A6AE3D3D1FB8D9E05 /* HandyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HandyJSON-umbrella.h"; sourceTree = "<group>"; };
 		C9F2F74EBB00D4C933FDBF4549350C22 /* ImageProgressive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProgressive.swift; path = Sources/Image/ImageProgressive.swift; sourceTree = "<group>"; };
-		CD54121DDA84872534168702B5F92950 /* HandyJSON */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HandyJSON; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD54121DDA84872534168702B5F92950 /* HandyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF78B8FAD0E54489AE56CC8804892ABE /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
 		D000D9BC75F6F586E6E4114EEA77FF0C /* Pods-ArcBlockCodingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArcBlockCodingTest.debug.xcconfig"; sourceTree = "<group>"; };
 		D03BCA921FBCDE38F0FB0F636B2A7CE6 /* ImageBinder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageBinder.swift; path = Sources/SwiftUI/ImageBinder.swift; sourceTree = "<group>"; };
@@ -474,17 +474,17 @@
 		E11F50E4BA1F721429C03422FC9D7460 /* MangledName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MangledName.swift; path = Source/MangledName.swift; sourceTree = "<group>"; };
 		E19DB2102D85C7679D89226A03E2132C /* PropertyInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PropertyInfo.swift; path = Source/PropertyInfo.swift; sourceTree = "<group>"; };
 		E3DC7F0350EA76B9CAEDC7791330D0EE /* ImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProvider.swift; path = Sources/General/ImageSource/ImageDataProvider.swift; sourceTree = "<group>"; };
-		E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53CEC29C65A9181F41BC0E8A3C9D055 /* DecimalExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalExtension.swift; path = SWCommonExtensions/Classes/Sources/Extensions/Swift/DecimalExtension.swift; sourceTree = "<group>"; };
 		E8DDABC713981E49D610D889160E7B4F /* Export.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Export.swift; path = Source/Export.swift; sourceTree = "<group>"; };
 		E9395B277B3A19F9C26CBBA3E44EBF35 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
 		EB1D6F36E15826FEEB8545DBAFF30654 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Utility/Result.swift; sourceTree = "<group>"; };
-		EBDB394A26C2AA4F56AB86A658E5D629 /* SWLog */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWLog; path = SWLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDB394A26C2AA4F56AB86A658E5D629 /* SWLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBA193A47EA3EA0E171D9B6B85446F0 /* HandyJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HandyJSON.h; path = Source/HandyJSON.h; sourceTree = "<group>"; };
 		EE963CA7A895B9FFD1CF5A0C56CC9103 /* SWLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWLog.swift; path = SWLog/Classes/SWLog.swift; sourceTree = "<group>"; };
 		EF136B0C2A7B87E7C798AF046266D0C2 /* UIScreenExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScreenExtension.swift; path = SWCommonExtensions/Classes/Sources/Extensions/UIKit/UIScreenExtension.swift; sourceTree = "<group>"; };
 		EFFBE1BD8B57DAEAE263F77D735E7F0F /* DataTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataTransform.swift; path = Source/DataTransform.swift; sourceTree = "<group>"; };
-		F02141AD1BFE903C8398F740954909C0 /* SWCommonExtensions */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWCommonExtensions; path = SWCommonExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02141AD1BFE903C8398F740954909C0 /* SWCommonExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWCommonExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F133A10DD64A47CB3FD95D15D3F06E0A /* KFAnimatedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFAnimatedImage.swift; path = Sources/SwiftUI/KFAnimatedImage.swift; sourceTree = "<group>"; };
 		F18D8C6BFE355ADB88B3C9A72AC17143 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
 		F2A74588F7595598FEF45031C986EED1 /* SWLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWLog-umbrella.h"; sourceTree = "<group>"; };
@@ -625,7 +625,6 @@
 				C3123A18D091B8051C065007E3E5AE6D /* URLTransform.swift */,
 				D67D0F6B327BC5EA6F3D80A472B10C24 /* Support Files */,
 			);
-			name = HandyJSON;
 			path = HandyJSON;
 			sourceTree = "<group>";
 		};
@@ -686,7 +685,6 @@
 				28E33ADA3E2F10E50A635825267F8FEC /* UserDefaultsExtension.swift */,
 				495BA4A3BEC153B64A10809A1779238F /* Support Files */,
 			);
-			name = SWCommonExtensions;
 			path = SWCommonExtensions;
 			sourceTree = "<group>";
 		};
@@ -790,7 +788,6 @@
 				A43F1C6709DF119A63B86136D70E21E3 /* Resources */,
 				6E22319B0198E841D1A1858F76A02AA5 /* Support Files */,
 			);
-			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -890,7 +887,6 @@
 				10AC74672574886660FE79E5B2A4E8B7 /* WKInterfaceImage+Kingfisher.swift */,
 				463936F9E3962FB77D976837E2A32A2A /* Support Files */,
 			);
-			name = Kingfisher;
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
@@ -909,7 +905,6 @@
 				5CB573E6E2DC452CD175B2A86E198C91 /* SW_MJRefresh.h */,
 				02DFEB87E0108B9FAD9DA2303026318A /* Support Files */,
 			);
-			name = SW_MJRefresh;
 			path = SW_MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -924,13 +919,13 @@
 		C28E8082C2FFE2F5F7F2620021B73234 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD54121DDA84872534168702B5F92950 /* HandyJSON */,
+				CD54121DDA84872534168702B5F92950 /* HandyJSON.framework */,
 				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */,
-				E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh */,
+				E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh.framework */,
 				1B4B9988F4EB28B53989BDB5B1A4EC70 /* Pods-ArcBlockCodingTest */,
-				14A80E654F11E136D1BE504FC5FB8BF6 /* SW_MJRefresh */,
-				F02141AD1BFE903C8398F740954909C0 /* SWCommonExtensions */,
-				EBDB394A26C2AA4F56AB86A658E5D629 /* SWLog */,
+				14A80E654F11E136D1BE504FC5FB8BF6 /* SW_MJRefresh.framework */,
+				F02141AD1BFE903C8398F740954909C0 /* SWCommonExtensions.framework */,
+				EBDB394A26C2AA4F56AB86A658E5D629 /* SWLog.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -949,7 +944,6 @@
 				EE963CA7A895B9FFD1CF5A0C56CC9103 /* SWLog.swift */,
 				83DF83984F22E2A7BF6539DADF8A93D0 /* Support Files */,
 			);
-			name = SWLog;
 			path = SWLog;
 			sourceTree = "<group>";
 		};
@@ -1082,7 +1076,7 @@
 			);
 			name = HandyJSON;
 			productName = HandyJSON;
-			productReference = CD54121DDA84872534168702B5F92950 /* HandyJSON */;
+			productReference = CD54121DDA84872534168702B5F92950 /* HandyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6712A2250583B58228AE1BF3F659F724 /* SWCommonExtensions */ = {
@@ -1100,7 +1094,7 @@
 			);
 			name = SWCommonExtensions;
 			productName = SWCommonExtensions;
-			productReference = F02141AD1BFE903C8398F740954909C0 /* SWCommonExtensions */;
+			productReference = F02141AD1BFE903C8398F740954909C0 /* SWCommonExtensions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */ = {
@@ -1118,7 +1112,7 @@
 			);
 			name = MJRefresh;
 			productName = MJRefresh;
-			productReference = E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh */;
+			productReference = E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		91EF4F4BA6D875E1B83AA57876772C3E /* SWLog */ = {
@@ -1136,7 +1130,7 @@
 			);
 			name = SWLog;
 			productName = SWLog;
-			productReference = EBDB394A26C2AA4F56AB86A658E5D629 /* SWLog */;
+			productReference = EBDB394A26C2AA4F56AB86A658E5D629 /* SWLog.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A5EADCDE51766E186155B1FFC6A7DF0A /* SW_MJRefresh */ = {
@@ -1155,7 +1149,7 @@
 			);
 			name = SW_MJRefresh;
 			productName = SW_MJRefresh;
-			productReference = 14A80E654F11E136D1BE504FC5FB8BF6 /* SW_MJRefresh */;
+			productReference = 14A80E654F11E136D1BE504FC5FB8BF6 /* SW_MJRefresh.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D6F420FFF875EC4155D79652D60D9689 /* Pods-ArcBlockCodingTest */ = {
@@ -1207,7 +1201,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -1554,7 +1548,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SWLog/SWLog-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SWLog/SWLog-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1589,7 +1583,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SW_MJRefresh/SW_MJRefresh-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SW_MJRefresh/SW_MJRefresh-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1623,7 +1617,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HandyJSON/HandyJSON-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HandyJSON/HandyJSON-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1657,7 +1651,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SWLog/SWLog-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SWLog/SWLog-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1929,7 +1923,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1963,7 +1957,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2034,7 +2028,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SW_MJRefresh/SW_MJRefresh-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SW_MJRefresh/SW_MJRefresh-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2069,7 +2063,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SWCommonExtensions/SWCommonExtensions-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SWCommonExtensions/SWCommonExtensions-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2103,7 +2097,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SWCommonExtensions/SWCommonExtensions-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SWCommonExtensions/SWCommonExtensions-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2138,7 +2132,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HandyJSON/HandyJSON-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HandyJSON/HandyJSON-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
