@@ -9,6 +9,7 @@ import UIKit
 
 class ArcBlockABTNodeTableViewController: UITableViewController {
     let viewModel = ArcBlockABTNodeViewModel()
+    private var rowHeights = [String:CGFloat]()
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
@@ -85,6 +86,24 @@ extension ArcBlockABTNodeTableViewController {
         }
 
     }
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        let section = indexPath.section
+        let row = indexPath.row
+        let key = "\(section)\(row)"
+        let height = cell.frame.height
+        rowHeights[key] = height
+    }
+    
+    override func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        let key = "\(indexPath.section)\(indexPath.row)"
+        guard let height = rowHeights[key] else { return UITableView.automaticDimension }
+        return height
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableView.automaticDimension
+    }
+
 }
 private extension ArcBlockABTNodeTableViewController {
     func refresh() -> () {

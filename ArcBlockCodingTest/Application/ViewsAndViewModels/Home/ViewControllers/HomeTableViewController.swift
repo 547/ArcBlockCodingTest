@@ -11,6 +11,7 @@ import SWCommonExtensions
 import SWLog
 class HomeTableViewController: UITableViewController {
     let viewModel = HomeViewModel()
+    private var rowHeights = [String:CGFloat]()
     override func viewDidLoad() {
         super.viewDidLoad()
             setupViews()
@@ -131,6 +132,23 @@ extension HomeTableViewController {
         default:
             break
         }
+    }
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        let section = indexPath.section
+        let row = indexPath.row
+        let key = "\(section)\(row)"
+        let height = cell.frame.height
+        rowHeights[key] = height
+    }
+    
+    override func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        let key = "\(indexPath.section)\(indexPath.row)"
+        guard let height = rowHeights[key] else { return UITableView.automaticDimension }
+        return height
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableView.automaticDimension
     }
 
 }
