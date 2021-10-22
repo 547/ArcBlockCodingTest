@@ -114,6 +114,7 @@
 		302ACDB227210F7A00C7480C /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				30FBB7062720266C00A4854B /* ViewControllerCenter.swift */,
 				302ACDB327210F7A00C7480C /* Tools */,
 				302ACDB627210F7A00C7480C /* Models */,
 				302ACDB927210F7A00C7480C /* ViewsAndViewModels */,
@@ -247,7 +248,6 @@
 			isa = PBXGroup;
 			children = (
 				302ACDB227210F7A00C7480C /* Application */,
-				30FBB7062720266C00A4854B /* ViewControllerCenter.swift */,
 				30CA6FE4271FB46600168698 /* AppDelegate.swift */,
 				30CA6FE8271FB46600168698 /* ViewController.swift */,
 				30CA6FEA271FB46600168698 /* Main.storyboard */,
